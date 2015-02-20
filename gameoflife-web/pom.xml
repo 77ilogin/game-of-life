@@ -43,7 +43,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1</version>
+                <version>3.2.5</version>
                 <configuration>
                 <configuration>
                     <packagingExcludes>WEB-INF/web.xml</packagingExcludes>
