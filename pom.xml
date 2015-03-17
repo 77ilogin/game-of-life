@@ -36,6 +36,14 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+			<plugin>
+            <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m4.3</version>
+            <configuration>
+                <!-- see goals wiki page for configuration options -->
+            </configuration>
+        </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.11</version>
